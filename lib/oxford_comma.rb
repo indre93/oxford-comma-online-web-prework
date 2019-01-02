@@ -1,9 +1,7 @@
 def oxford_comma(array)
   array.join
- end
-  array << durian
-  array.join("and")
- end
+  if array.length == 2-element
+    
  
   
   
