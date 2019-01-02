@@ -6,7 +6,7 @@ def oxford_comma(array)
   else
     array.length >= 3
     array.push(", and #{array[-1]}")
-    array.pop
+    array.uniq
     array.join(", ")
   end
 end
