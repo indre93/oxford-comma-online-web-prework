@@ -5,7 +5,7 @@ def oxford_comma(array)
     array.join(" and ")
   else
     array.length >= 3
-    x << ", and #{array[-1]}"
+    x.shovel", and #{array[-1]}"
     array.push(x)
     array.join(", ")
   end
